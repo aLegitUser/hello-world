@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    for (int i=0; i!=10; i++)
+    for (int i=0; i!=26; i++)
     {
-        cout << i << endl << endl;
+        cout << (char)('a'+i) << endl << endl;
     }
 
     return 0;
